@@ -105,7 +105,7 @@ Festival.destroy_all
 
 puts "creating new festivals..."
 
-festival_one = Fesitval.create(name: "Fyre Festival", location: "Exuma, The Bahamas")
+festival_one = Festival.create(name: "Fyre Festival", location: "Exuma, The Bahamas")
 festival_two = Festival.create(name: "Jazz Fest", location: "New Orleans, LA")
 festival_three = Festival.create(name: "Bonaroo", location: "Manchester, TN")
 
